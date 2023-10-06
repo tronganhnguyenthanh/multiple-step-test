@@ -10,12 +10,12 @@ const Confirm = () => {
      </Col>
      <Col lg="6">
        <div className="confirm">
-         <img src={checkbox} alt=""/>
-         <h3>Thank you</h3>
-         <p>
-          Thanks for confirming your subscription! We hope you have fun using our platform. 
-          If you ever need support, please feel free to email us at support@loremgaming.com.
-         </p>
+          <img src={checkbox} alt=""/>
+          <h3>Thank you</h3>
+          <p>
+           Thanks for confirming your subscription! We hope you have fun using our platform. 
+           If you ever need support, please feel free to email us at support@loremgaming.com.
+          </p>
        </div>
      </Col>
    </Row>

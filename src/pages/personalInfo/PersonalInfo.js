@@ -29,49 +29,7 @@ const PersonalInfo = () => {
       <ToastContainer />
       <Row>
         <Col lg="6">
-          {/* <Nav variant="pills">
-            <Nav.Item>
-              <Nav.Link>
-                <div className="left-sidebar-wrapper">
-                  <img src={Step} alt="" />
-                </div>
-                <div className="step-timeline">
-                  <img src={Circle1} alt="" />
-                  <p className="number">1</p>
-                </div>
-                <div className="step-one">Step 1</div>
-                <div className="step-one-info">Your info</div>
-              </Nav.Link>
-              <Nav.Link>
-                <div className="step-timeline-two">
-                  <img src={Circle1} alt="" />
-                  <p className="number-two">2</p>
-                </div>
-                <div className="step-two">Step 2</div>
-                <div className="step-two-select-plan">select plan</div>
-              </Nav.Link>
-              <Nav.Link>
-                <div className="step-timeline-three">
-                  <img src={Circle1} alt="" />
-                  <p className="number-three">3</p>
-                </div>
-                <div className="step-three">Step 3</div>
-                <div className="step-three-addons">add-ons</div>
-              </Nav.Link>
-              <Nav.Link>
-                <div className="step-timeline-four">
-                  <img
-                    src={Circle1}
-                    alt=""
-                  />
-                  <p className="number-four">4</p>
-                </div>
-                <div className="step-four">Step 4</div>
-                <div className="step-four-summary">summary</div>
-              </Nav.Link>
-            </Nav.Item> */}
-            <SidebarStep/>
-          {/* </Nav> */}
+          <SidebarStep/>
         </Col>
         <Col lg="6">
           <div className="personal-info-wrapper">

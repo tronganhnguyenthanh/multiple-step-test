@@ -57,7 +57,7 @@ body{
   background-color:#022959 !important;
   border:none !important;
   height:37px !important;
-  margin-left:67% !important;
+  margin-left:70% !important;
   margin-top:-11% !important;
 }
 
@@ -563,10 +563,6 @@ body{
   margin-top:0 !important;
 }
 
-.btn-group-summary > .btn-next-step{
-  margin-top:-1% !important;
-}
-
 .price-result{
   font-family:"Ubuntu", sans-serif;
   color:#483EFF !important;
@@ -613,7 +609,7 @@ body{
   cursor:pointer;
 }
 
-@media (max-width:576px){
+@media (max-width:768px){
   .step-one{
     display:none;
   }
@@ -640,32 +636,35 @@ body{
 
   .step-timeline{
     top:7%;
-    left:47%;
+    left:24%;
   }
 
   .step-timeline-two{
     position:absolute;
-    left:66%;
+    left:42%;
     top:7%;
   }
 
   .step-timeline-three{
-    top:-29%;
-    left:84%;
+    top:-26%;
+    left:60%;
   }
 
   body{
-   background:lightgray;
+   background:#EFF5FF;
+  }
+   
+  body, html{
+   overflow-x:hidden;
   }
 
   .personal-info-wrapper{
     background-color:#fff;
     margin-top:-48%;
-    margin-left:15%;
+    margin-left:-13%;
     width:336px;
     padding:21px;
-    overflow:scroll;
-    touch-action:auto;
+    border-radius:10px;
   }
 
   .personal-info-wrapper > p {
@@ -674,10 +673,16 @@ body{
 
   .wrapper{
     background:none;
+    border:none;
+    margin-top:-5%;
   }
 
   .left-sidebar-wrapper{
     background:none !important;
+  }
+
+  .left-sidebar-wrapper > img{
+    margin-left:-39%;
   }
 
   .step-four{
@@ -690,6 +695,139 @@ body{
 
   .step-timeline-four{
     top:7%;
-    left:100%;
+    left:77%;
   }
+
+  .btn-next-step{
+    margin-left:57% !important;
+  }
+
+  form{
+   margin-left:7%;
+  }
+
+  .select-plan-wrapper{
+    width:342px;
+    background-color:#fff;
+    padding:21px;
+    margin:0 auto;
+    margin-top:-50%;
+    margin-left:-12%;
+    border-radius:10px;
+  }
+
+  .select-plan-wrapper > p{
+    white-space:pre-line;
+  }
+
+  .select-icon-plan{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .square{
+    width:95%;
+  }
+
+  .custom-plan{
+    margin-top:-70%;
+    margin-left:80%;
+  }
+
+   .custom-plan > input {
+      width:25px;
+      height:25px;
+      margin-top:66px;
+   }
+
+  .choose-payment > h3 {
+    margin-top:4%;
+  }
+
+  .btn-group-select-plan > .btn-next-step {
+    margin-top: -49px !important;
+   }
+
+   .multiplayer{
+     margin-left:-44% !important;
+   }
+
+   .price{
+     margin-left:-12%;
+     margin-top:-1%;
+   }
+
+   .service > .custom-checkbox{
+     margin-top:-7% !important;
+   }
+
+   .service > p{
+     margin-top:10%;
+     margin-left:-44.7%;
+   }
+
+   .price-two{
+     margin-left:1%;
+   }
+
+   .customizable-profile {
+     margin-left: -64.2% !important;
+   }
+
+   .price-three{
+     margin-left:-16%;
+     margin-top:-1%;
+   }
+
+   .btn-group-pick-addons > .btn-next-step{
+     margin-top: -16% !important;
+   }
+
+   .price-online-service{
+     top:22.2%;
+   }
+
+   .larger-storage-service{
+     top:33%;
+   }
+
+   .total{
+     white-space:nowrap;
+   }
+
+   .price-result{
+     margin-left:40%;
+     margin-top:0.9%;
+   }
+
+   .btn-group-summary > .btn-next-step{
+     margin-top:-18% !important;
+   }
+
+   .btn-group-summary{
+     margin-left:15%;
+   }
+
+   .confirm > p{
+     font-size:14px;
+     margin-left:20px;
+     padding:80px;
+     margin-top:-18%;
+   }
+
+   .confirm{
+     width:369px;
+     background-color:#fff;
+     margin-left:-20%;
+     margin-top:-52%;
+     border-radius:10px;
+   }
+
+   .confirm > img{
+     padding-left:40%;
+   }
+
+   .confirm > h3{
+     margin-left:29%;
+   }
 }
