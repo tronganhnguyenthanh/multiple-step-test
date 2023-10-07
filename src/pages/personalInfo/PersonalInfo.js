@@ -10,16 +10,24 @@ const PersonalInfo = () => {
   const [email, setEmail] = useState("")
   const [phoneNumber, setPhoneNumber] = useState("")
   const goNext = () => {
-    if (name === "") {
-      toast.error("Please enter your name", { position: "top-center" })
-      return false
-    } else if (email === "") {
-      toast.error("Please enter your email", { position: "top-center" })
-      return false
-    } else if (phoneNumber === "") {
-      toast.error("Please enter your phone number", { position: "top-center" })
-      return false
-    } else {
+    if(name === ""){
+     toast.error("Please enter your name", {position:"top-center"})
+     return false
+    }
+    if(email === ""){
+     toast.error("Please enter your email", {position:"top-center"})
+     return false
+    }
+
+    if(phoneNumber === "") {
+     toast.error("Please enter your phone number", {position:"top-center"})
+     return false
+    }
+
+    if(phoneNumber.length < 10){
+     toast.error("Your phone number must be at least 10 digits", {position:"top-center"})
+     return false
+    }else{
       navigate("/select-plan")
       return true
     }
