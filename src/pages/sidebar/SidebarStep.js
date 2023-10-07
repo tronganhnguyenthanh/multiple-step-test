@@ -1,15 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import Step from "../../images/Bg.png"
 import BgMobile from "../../images/bg-mobile.png"
 import Circle1 from "../../images/circle1.png"
+import ActiveTab from "../../images/Oval.png"
 import {Nav} from "react-bootstrap"
 import {Link} from "react-router-dom"
 import MediaQuery from "react-responsive"
 const SidebarStep = () => {
+    const [active, setActive] = useState(ActiveTab)
+    const handleActiveTab = () => {
+      setActive(active)
+      console.log(active)
+    }
     return (
      <>
       <MediaQuery minWidth={1200}>
-       <Nav variant="pills" className="ml-2">
+       <Nav variant="pills" className="ml-2" onSelect={handleActiveTab}>
           <Nav.Item>
               <Link to="/">
                  <div className="left-sidebar-wrapper p-2">
